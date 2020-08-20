@@ -126,7 +126,7 @@ filecoin-proofs/src/api/seal.rs
         sector_id: SectorId,
         ticket: Ticket,
         piece_infos: &[PieceInfo],
-) -> Result<SealPreCommitPhase1Output<Tree>>{
+    ) -> Result<SealPreCommitPhase1Output<Tree>>{
     ...
     // todo 把 unsealed 数据拷贝到 sealed的位置处，此处可优化直接，直接把unsealed数据放到 sealed位置处，节省拷贝时间
      fs::copy(&in_path, &out_path).with_context(|| {
