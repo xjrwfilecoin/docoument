@@ -1,6 +1,6 @@
 #### Miner 和 Daemon rpc 通信优化
 
-**注意** : 这个版本的rpc解决了，只解决了 miner和damone 的通信问题，daemon和miner跑这个版本， woerker请继续使用原先的版本 
+**注意** : 这个版本的rpc 暂时只解决了 miner和damone 的通信问题，daemon和miner跑这个版本， woerker请继续使用原先的版本 
 
 
 下载自己的rpc库
